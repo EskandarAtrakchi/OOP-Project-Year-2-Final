@@ -1,0 +1,23 @@
+package bookcatalog;
+
+/**
+ *
+ * @author x23137517
+ */
+public class BooksApp {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        //instance of the BooksGUI class 
+        
+        BooksGUI bgui = new BooksGUI () ;
+        
+        //set the GUI to visibile when run 
+        bgui.setVisible(true);
+        
+    }
+    
+}
